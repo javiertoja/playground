@@ -34,6 +34,7 @@ public class FruitResource {
     EntityManager entityManager;
 
     @GET
+    @Transactional
     public List<Fruit> get() {
 
         entityManager.createQuery("SELECT f FROM Fruit f ORDER BY f.name",Fruit.class)
