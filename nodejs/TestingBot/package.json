@@ -1,0 +1,24 @@
+{
+  "name": "testingbot",
+  "version": "1.0.0",
+  "description": "Bot for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiertoja/playground.git"
+  },
+  "author": "Javier Toja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiertoja/playground/issues"
+  },
+  "homepage": "https://github.com/javiertoja/playground#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  }
+}
